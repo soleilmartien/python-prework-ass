@@ -7,7 +7,7 @@ def first_odds():
 
 def max_num_in_list(a_list):
     big = a_list[0]
-    for x in list:
+    for x in a_list:
         if x > big:
             big = x
     return big
@@ -28,7 +28,11 @@ def is_consecutive(a_list):
             return False
     if prem == a_list[-1]:
         return True
-
+print(hello_name("Zach"))
+print(first_odds())
+print(max_num_in_list([5,3,2,4,3,6,2,6,8,89]))
+print(is_leap_year(2022))
+print(is_consecutive([1,2,3,4,5,6,7,9]))
 
 
 
